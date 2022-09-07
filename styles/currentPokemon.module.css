@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    font-family: pocket_monkregular;
+    display: block;
+}
+
+img.detailPage{
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    display: block;
+}
+p.details{
+    padding-top: 10px;
+    display: block;
+}
+
+@font-face {
+    font-family: 'pocket_monkregular';
+    src: url('../public/Pokemon-font/pocketmonk-15ze-webfont.woff2') format('woff2'),
+         url("../public/Pokemon-font/pocketmonk-15ze-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
